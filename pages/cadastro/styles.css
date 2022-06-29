@@ -1,0 +1,10 @@
+body {
+    background-color: var(--branco);
+
+    color: var(--azul);
+
+    background-image: url('../../img/Patas.png'), url('../../img/Forma\ 1.png'), url('../../img/Forma\ 2\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: right top, left top, 0% 80%;
+
+}

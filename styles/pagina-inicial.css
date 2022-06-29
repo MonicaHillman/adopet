@@ -1,0 +1,30 @@
+.pagina-inicial {
+    text-align: center;
+    height: 80vh;
+    margin-top: 2em;
+}
+
+.pagina-inicial__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 26px;
+    margin: 1em 0;
+}
+
+.pagina-inicial__texto {
+    line-height: 24px;
+    padding: 0 3.7em 1em 3.7em;
+}
+
+.botoes__item {
+    display: inline-block;
+    padding: 0.7em;
+    margin: 1em 2em;
+    background-color: var(--vermelho);
+    border-radius: 6px;
+    width: 50%;
+}
+
+.botoes__item a {
+    text-decoration: none;
+    color: var(--branco);
+}

@@ -1,0 +1,40 @@
+@import url(./styles/reset.css);
+@import url(./styles/pagina-inicial.css);
+@import url(./styles/cadastro.css);
+
+:root {
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
+    --branco: #FFFFFF;
+    --vermelho: #FC7071;
+    --cinza: #737380;
+    --cinza-claro: #F7F7F7;
+    --cinza-placeholder: #BCBCBC;
+}
+
+body {
+    background-color: var(--azul);
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    font-size: 16px;
+    background-image: url('./img/Forma\ 1.png'), url('./img/Forma\ 2.png');
+    background-repeat: no-repeat;
+    background-position: left top, right center;
+}
+
+.rodape {
+    background-color: var(--verde);
+    padding: 2em 0;
+    color: var(--branco);
+    text-align: center;
+}
+
+.cabecalho {
+    padding: 3em 2em;
+}
+
+.cabecalho__imagem {
+    padding: 0 1em;
+}

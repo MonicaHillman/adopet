@@ -1,0 +1,45 @@
+.cadastro {
+    text-align: center;
+    height: 80vh;
+    margin-top: 2em;
+}
+
+.cadastro__texto {
+    margin: 1em 2em;
+}
+
+.container-formulario__rotulo {
+    display: block;
+    color: var(--cinza);
+    padding: 0.5em;
+}
+
+.container-formulario__campo {
+    background: var(--cinza-claro);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+    padding: 0.5em;
+    width: 60%;
+}
+
+.container-formulario__campo::placeholder {
+    color: var(--cinza-placeholder);
+    font-family: 'Poppins';
+    font-size: 12px;
+    text-align: center;
+}
+
+.container-formulario {
+    margin: 2em 0;
+}
+
+.cadastro__botao {
+    display: inline-block;
+    padding: 0.7em;
+    background-color: var(--vermelho);
+    border-radius: 6px;
+    width: 30%;
+    text-decoration: none;
+    color: var(--branco);
+}

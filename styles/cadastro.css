@@ -1,4 +1,15 @@
 .cadastro {
+    background-color: var(--branco);
+
+    color: var(--azul);
+
+    background-image: url('../../img/Patas.png'), url('../../img/Forma\ 1.png'), url('../../img/Forma\ 2\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: right top, left top, 0% 80%;
+
+}
+
+.cadastro__formulario {
     text-align: center;
     height: 80vh;
     margin-top: 2em;
@@ -34,7 +45,7 @@
     margin: 2em 0;
 }
 
-.cadastro__botao {
+.formulario__botao {
     display: inline-block;
     padding: 0.7em;
     background-color: var(--vermelho);

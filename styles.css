@@ -1,6 +1,8 @@
 @import url(./styles/reset.css);
 @import url(./styles/pagina-inicial.css);
 @import url(./styles/cadastro.css);
+@import url(./styles/login.css);
+@import url(./styles/lista.css);
 
 :root {
     --azul: #3772FF;

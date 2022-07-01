@@ -1,0 +1,58 @@
+.lista {
+    background-color: var(--branco);
+    color: var(--azul);
+    background-image: url('../img/Forma\ 1.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.lista-pets__imagem {
+    object-fit: contain;
+}
+
+.galeria__texto {
+    margin: 3em 5em 2em 5em;
+    text-align: center;
+}
+
+.lista-pets__item {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--cinza-claro);
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.caracteristicas__nome {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.lista-caracteristicas__item {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cinza);
+}
+
+.lista-caracteristicas {
+    padding-top: 0.7em;
+    padding-bottom: 1.5em;
+}
+
+.caracteristicas__local {
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--cinza);
+}
+
+.contato {
+    display: flex;
+    margin: 0.7em 0;
+}
+
+.contato__texto {
+    font-size: 10px;
+    line-height: 16px;
+    margin-left: 0.4em;
+    color: var(--cinza)
+}

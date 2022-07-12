@@ -54,3 +54,10 @@
     text-decoration: none;
     color: var(--branco);
 }
+
+@media screen and (min-width: 768px) {
+    .cadastro__texto {
+        margin: 1em 6em;
+    }
+
+}

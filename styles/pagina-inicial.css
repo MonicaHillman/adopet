@@ -1,3 +1,11 @@
+.inicial {
+    color: var(--branco);
+    background-color: var(--azul);
+    background-image: url('../img/Forma\ 1.png'), url('../img/Forma\ 2.png'), url('../img/CaoGato.png');
+    background-repeat: no-repeat;
+    background-position: left top, right center, bottom 4em center;
+}
+
 .pagina-inicial {
     text-align: center;
     height: 80vh;
@@ -27,4 +35,29 @@
 .botoes__item a {
     text-decoration: none;
     color: var(--branco);
+}
+
+.cabecalho__imagem-logo {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .cabecalho__imagem-logo {
+        display: inline;
+        width: 7em;
+    }
+
+    .pagina-inicial__titulo {
+        font-size: 28px;
+    }
+
+    .pagina-inicial__texto,
+    .botoes__item a {
+        font-size: 18px;
+    }
+
+    .pagina-inicial__texto {
+        padding: 0 14em 1em 14em;
+    }
 }

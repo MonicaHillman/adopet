@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles.css">
+    <title>AdoPet - Cadastro</title>
+</head>
+
+
+<body class="mensagem">
+    <header class="cabecalho">
+        <img src="../../img/Logo.png" alt="Logo da adopet" class="cabecalho__imagem cabecalho__imagem-logo">
+        <a href="../../index.html"><img src="../../img/Casa.svg" alt="Página inicial" class="cabecalho__imagem"></a>
+        <a href="../mensagem/mensagem.html"><img src="../../img/Mensagens.svg" alt="Caixa de mensagens"
+                class="cabecalho__imagem"></a>
+    </header>
+
+    <section class="mensagem-formulario">
+
+        <p class="mensagem-formulario__texto">Envie uma mensagem para a pessoa ou instituição que está cuidado do
+            animal:</p>
+
+        <form class="formulario-mensagem">
+
+            <div class="container-mensagem">
+                <label for="nome" class="container-mensagem__rotulo">Nome</label>
+                <input type="text" id="nome" class="container-mensagem__campo" placeholder="Digite seu nome completo" />
+            </div>
+
+            <div class="container-mensagem">
+                <label for="tel" class="container-mensagem__rotulo">Telefone</label>
+                <input type="tel" id="tel" class="container-mensagem__campo"
+                    placeholder="Insira seu telefone e/ou whatsapp" />
+            </div>
+
+            <div class="container-mensagem">
+                <label for="nome-animal" class="container-mensagem__rotulo">Nome do animal</label>
+                <input type="text" id="nome-animal" class="container-mensagem__campo"
+                    placeholder="Por qual animal você se interessou?" />
+            </div>
+            <div class="container-mensagem">
+                <label for="mensagem" class="container-mensagem__rotulo">Mensagem</label>
+                <input type="textarea" id="mensagem" class="container-mensagem__campo container-mensagem__mensagem"
+                    placeholder="Escreva sua mensagem." />
+            </div>
+
+            <a href="../lista/lista.html" class="formulario__botao">Enviar</a>
+        </form>
+
+
+    </section>
+
+    <footer class="rodape">
+        <p>2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+
+
+
+</html>

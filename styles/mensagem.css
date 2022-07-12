@@ -1,0 +1,45 @@
+.mensagem-formulario__texto {
+    margin: 3em 5em 2em 5em;
+    text-align: center;
+}
+
+.formulario-mensagem {
+    background-color: var(--cinza-claro);
+    margin: 2em;
+    padding: 1em;
+}
+
+.container-mensagem__rotulo {
+    display: block;
+    font-weight: 700;
+}
+
+.container-mensagem__campo {
+    margin: 1em 0;
+    background: var(--branco);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+    padding: 0.5em;
+    height: 2rem;
+    width: 90%;
+}
+
+
+.container-mensagem__mensagem {
+    height: 10rem;
+}
+
+
+.container-mensagem__campo::placeholder {
+    color: var(--cinza-placeholder);
+    font-family: 'Poppins';
+    font-size: 12px;
+    text-align: center;
+}
+
+.formulario-mensagem .formulario__botao {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
